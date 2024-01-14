@@ -19,7 +19,7 @@ def x(y, mood):
     img = PIL.Image.open(y)
 
     model = genai.GenerativeModel('gemini-pro-vision')
-    prompt = f"Compose Fifteen short, medium-long Instagram captions in only english language designed to complement images. Include curated EMOJIs* and hashtags that aptly capture the essence of the PICTURE* and reflect the current mood, characterized as {mood}. Ensure the captions are visually appealing and resonate with the content."
+    prompt = f"Compose Fifteen short, medium Instagram captions in only english language designed to complement images. Include curated EMOJIs* and hashtags that aptly capture the essence of the PICTURE* and reflect the current mood, characterized as {mood}. Ensure the captions are visually appealing and resonate with the content."
     response = model.generate_content([prompt, img], stream=True)
     response.resolve()
 
