@@ -9,7 +9,7 @@ from IPython.display import Markdown
 app = Flask(__name__)
 
 
-genai.configure(api_key=key)
+genai.configure(api_key)
 import PIL.Image
 
 # Update the x function
