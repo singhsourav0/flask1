@@ -111,7 +111,7 @@ if (data && data.captions) {
             var boxNumber = index + 1;
             var box = document.createElement('div');
             box.className = 'outputBox';
-            box.textContent = '(⁠ ͡⁠°⁠ ⁠ʖ⁠ ͡⁠°⁠)⁠☞ ' + caption.trim();  // Remove leading/trailing spaces
+            box.textContent = '⁠⁠☞ ' + caption.trim();  // Remove leading/trailing spaces
             outputBoxes.appendChild(box);
         }
         
