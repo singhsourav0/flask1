@@ -1,6 +1,6 @@
 # Instagram Caption Generator 🚀
 
-![Project Logo](static/img/Screenshot (2).png)
+![Generated caption](static/img/img.png)
 
 ## Overview
 
