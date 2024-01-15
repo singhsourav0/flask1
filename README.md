@@ -22,7 +22,7 @@ Welcome to the Instagram Caption Generator – your go-to solution for effortles
 
 1. **Clone the Repository:**
     ```bash
-    git clone https://github.com/your-username/flask1
+    git clone https://github.com/singhsourav0/flask1
     ```
 
 2. **Install Dependencies:**
