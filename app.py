@@ -8,7 +8,7 @@ from IPython.display import Markdown
 
 app = Flask(__name__)
 
-
+api_key ="AIzaSyDV_q4TyTkdgOTHjhJkeTxruj1KrMbcRjE"
 genai.configure(api_key)
 import PIL.Image
 
